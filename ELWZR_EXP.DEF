@@ -1,0 +1,6 @@
+; Filename: ELWZR_EXP.DEF
+LIBRARY ELWZR.DLL
+; *** Visual Studio 2019 EXPORT ALIASES ONLY ***
+; Module Description Here - Copyright (c) Skynet, Inc.
+EXPORTS
+	_init__elwzr=init__elwzr	@1

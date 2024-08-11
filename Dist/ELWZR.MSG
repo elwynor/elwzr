@@ -1,0 +1,316 @@
+
+LEVEL3 {Elwynor Technologies: Zone Raiders}
+
+Enter the name of the key required for a user to play the game.
+
+ZRKEY {DEMO} S 15 Key required to play the game
+
+Key required to use the sysop commands within the game.
+
+CHEATKEY {MASTER} S 15 Key required to use SysOp commands
+
+LEVEL4 {Elwynor Technologies: Zone Raiders}
+
+Do you want to show users a message when they login to your BBS?
+
+ZRLON {Show users a message at login advertising Zone Raiders? YES} B
+
+This is the credit consumption rate for Zone Raiders. Normally,
+if you don't want it to have a premium, leave it at 1 which is
+normal for the BBS.
+
+ZRCST {Cost in credits per minute to play Zone Raiders: 1} N -32000 32000
+
+LEVEL6 {Elwynor Technologies: Zone Raiders}
+
+NONONL {
+Sorry, you don't have the key required to play Zone RAIDERS.
+} T ZR: Not authorized user blowoff
+
+ZRLONMSG {
+Team up and battle it out in Zone RAIDERS!
+} T ZR: Logon Message
+
+ZRM {
+
+
+--==================================--
+  __
+   /            |>
+  /  () |\| <-  |\ /\ | |> <- |~ _/~
+  ~~
+--==================================--
+
+  H> Help and Information 
+
+  W> View the War Memorial
+  S> Current Status of Zone Raiders
+  P> Play Zone RAIDERS
+
+  X> Exit Zone RAIDERS
+
+--==================================--
+
+   Your choice? } T ZR: Main Menu
+
+ZRP {
+ZONE RAIDERS:H,W,S,P,X,?> } T ZR: Main Prompt
+
+ZRSIDE {
+Pressing RETURN places you on the side with fewer players.
+
+What side do you wish to play? (Alpha or Bravo): } T ZR: What side?
+
+ZRSIVA {
+Pressing just the RETURN key places you on the side with fewer players.
+
+What side do you wish to play? (A for ALPHA or B for BRAVO): } T ZR: what side again
+
+ZRH1 {
+--==================================--
+  Zone RAIDERS!  MultiPlayer COMBAT!
+--==================================--
+
+     Zone RAIDERS! is a multi-player combat game originally based on the
+"survivalist" camps popular in the early 80's.  Players here are given the
+opportunity to be really hostile to each other with no real-life side
+effects.
+
+     Zone RAIDERS! takes place in REAL TIME, on a 50 by 50 square grid.
+Each grid position is a place you can stand, so there are 2500 different
+locations in the game.  Everyone has HEALTH and ENERGY POINTS.  As you are
+attacked, your health decreases.  You never heal (without assistance) in
+Zone RAIDERS!, because the time span of the game is too short to allow it
+to happen in real life.  If your health goes below zero, you die, and are
+out of the game.
+
+     A player may carry up to 10 items, including one gun-type weapon.
+Everyone has a knife, even though it does not appear on the inventory.
+
+>>>> Type X to exit or RETURN to go on: } T ZR help 1
+
+ZRH2 { :: Zone RAIDERS! ::
+
+     EP is short for ENERGY POINTS.  When you fire your weapon, it uses up
+energy.  Energy points regenerate, 1 every 2 seconds.  The number of EP
+used when you fire depends on your weapon, and ranges from 3 to 16 per
+shot.  It is best to be judicious with your weapon, or you will run out
+of EP very quickly.
+
+     In Zone RAIDERS, you can move and fire in 8 different directions.
+These are: N, NW, W, SW, S, SE, E and NE.
+
+     When you move, you make noise.  That noise can and will be heard by
+any player close enough to hear it.  You can move by RUNNING (very loud),
+WALKING (fairly quiet) or CRAWLING (nearly silent).  You can also make
+yourself heard bu speaking.  You have a choice of three speaking volumes.
+You can YELL, TALK or WHISPER.
+         
+     Everyone has a two-channel radio.  You can use the "General" channel
+which everyone can hear, or the "Loyal" channel, which only people on your
+side can hear.  Remember: Speaking into your radio can ALSO be heard.
+
+>>>> Type X to exit or RETURN to go on: } T ZR help 2
+
+ZRH3 { :: Zone RAIDERS! ::
+
+     Everyone starts the game with the Basic weapon (pulse pistol).  Every
+shot you score on someone, you earn 3 "bux".  If you kill someone, you earn
+15 "bux".  You can go to the supply depots (located at 00 W10 and 00 E10)
+to purchase various items with your bux, like better weapons, medikits and
+the like.  Better weapons can fire with more power (using more EP per shot)
+and do more damage.  Better weapons also are quieter (weapon fire can be
+heard), but have a shorter range.
+
+     There are two sides: ALPHA and BRAVO.  You choose which side you want
+to play when you enter the game.  It makes no difference in the game who
+you shoot, indeed, if you are playing teams, you MUST use your loyal radio
+and whispering to make sure you don't shoot an ally!
+
+     You can play the game any number of ways:  As a two-sided war.  As a
+everyman-for-himself free-for-all.  You can even challenge someone to a
+duel.  However, the game knows nothing of HOW you play it, it just keeps
+track of two sides, with a loyal radio channel exclusive to that.  It's up
+to YOU to create the scenario you want to play --- Zone RAIDERS enables you
+to be very creative in your game play.
+
+>>>> Type X to exit or RETURN to go on: } T ZR help 3
+
+ZRH4 { :: Zone RAIDERS! ::
+
+
+     The reason all this is based on "sound" as it were, is that the game
+is played at night, in a lightly wooded forest.  Ergo, running is very loud
+as the player trips over bushes, runs into branches, etc.
+
+     Also, while "sound levels" were mentioned, and "ranges" for weapons,
+you were NOT told what these were.  You have to discover all these factors
+for yourself.  That is what separates the beginner from the expert Zone
+RAIDERS! player.
+
+     When you exit the game, no matter how, you are assigned a score.
+Depending on how you exit the game, you're assigned a "status".  If you
+left the game before all the players on the other team were dead, you are
+"AWOL", and your score is divided by three.  If you die, you are "Killed
+in Service" and receive your full score.  If you exit the game, but there
+are no players on the other team, you receive an "Honorable Discharge,"
+and your full score.
+
+
+>>>> Type X to exit or RETURN to go on: } T ZR help 4
+
+ZRH5 { :: Zone RAIDERS! ::
+
+  1)  Nothing is printed to your screen for "fun."  Every message you see
+      has some meaning.  Don't ignore any part of the text display.
+
+  2)  Weapons can jam.
+
+  3)  If you're LOOKING, and get shot, you won't see anything.
+
+  4)  Usage of landmines:  Just <U>se them.  They rest on the current
+      square.  It won't go off until someone moves onto the square.
+
+  5)  Usage of grenades:  <U>se it, then <T>hrow it.  If you don't throw
+      it, it will blow up in the square you're in.
+
+  6)  You receive no bux or score for using landmines or grenades.
+
+  7)  Alpha players start out near 15N 0E, Bravo near 15S 0E.
+
+  8)  Landmines go dud in 10 minutes.
+
+>>>> Press RETURN for main menu: } T ZR help 5
+
+ZRGHLP {: Walk: N  NW  W  SW  S  SE  E  NE
+:Crawl: CN CNW CW CSW CS CSE CE CNE
+:  Run: RN RNW RW RSW RS RSE RE RNE
+:
+:        Talk: T message
+:     Whisper: W message
+:        Yell: Y message
+:Public Radio: G message
+: Loyal Radio: L message
+:
+:Knife attack: A <userid> (4 sec)
+:       Shoot: FN FNW FW FSW FS FSE FE FNE (1 sec)
+:   Firepower: FN 1-8  Firepower is 1 if not specified
+:
+:     Look: L-regular  LH-look hard
+:Inventory: I
+: Use item: U <name>
+:    Throw: T<direction> with distance 1-6, i.e. TSW 5 (3 sec)
+:  Players: WHO
+:     Exit: X
+} T ZR playing help
+
+PLYZR {
+Playing Zone RAIDERS!
+} T ZR now playing
+
+WARM1 {
+  === ALL TIME ZONE RAIDERS HEROES ===
+
+User-ID                        Shots Hits  Pct. Kills Time   Overall Score
+------------------------------ ----- ----- ---- ----- ------ ----------------
+} T ZR War Memorial All Time
+
+WARM2 {
+
+  === Today's Zone RAIDERS Heroes ===
+
+User-ID                        Shots Hits  Pct. Kills Time   Overall Score
+------------------------------ ----- ----- ---- ----- ------ ----------------
+} T ZR War Memorial Today
+
+
+DEPOTM {
+*** Welcome to the ZR Supply Depot!
+
+ I> See YOUR inventory and bux
+ C> Catalog the items in the store
+ P> Purchase an item
+ S> Sell an item
+ X> Return to combat field
+
+ Your choice? } T ZR Supply depot menu
+
+DEPOTP {
+ZR SUPPLY DEPOT:I,C,P,S,X,?> } T ZR Supply depot prompt
+
+DCAT {
+*** Here's the catalog.
+
+Price Name         Description
+----- ------------ --------------
+} T ZR Catalog info
+
+DPUR {
+*** Excellent!  What can I help you with?
+Item name? } T ZR Purchase what item
+
+DGYP {
+*** Hey friend, you can't afford a %s!  It costs %u and you've only got %u!
+} T ZR Not enough money to buy
+
+DWSELL {
+*** Sorry pal.  You're not allowed to have two weapons at once.
+} T ZR Can't have two weapons
+
+DWFULL {
+*** Friend, I'd like to sell this %s to you, but you have no place to put
+it!
+} T ZR Your pack is full
+
+DNOGOT {
+*** Don't try to pull the wool over my eyes!  You don't have a %s!
+} T ZR Can't sell if ya don't have.
+
+DYOUBUY {
+*** SOLD!  Thank you!  Here's your %s, purchase price was %u, and your
+current total is %u bux.
+} T ZR Sold an item
+
+DOFFER {
+*** Hmmm.  Well, I'll offer you %u for your %s.  Whaddya say?
+Y/N? } T ZR sell this item?
+
+DDENY {
+*** Fine by me.  I can't offer you more.
+} T ZR no sale
+
+DACCEPT {
+*** Here you are, then.  Here's the %u for your %s, and your new total
+is %u.
+} T ZR item sold
+
+DRETURN {
+*** Thanks for coming to the ZR Supply Depot!
+} T ZR exiting depot
+
+DNOSTOK {
+*** Sorry pal.  We don't carry any '%s'.  Check out our catalog.
+} T ZR don't carry that item
+
+DSELLIN {
+*** Okay.  What do you want to sell?
+Item name ? } T ZR sell what item
+
+ZRIMED {Medipak used!  You're healed to %u health!
+} T ZR Medipak used message
+
+ZRIEPA {Epak used!  You now have %u EP!
+} T ZR Epak used message
+
+ZRIPOW {Your Powercell doesn't need to be "used"; it's already working!
+} T ZR Powercell used message
+
+ZRGREN {Grenade armed.  10 seconds.  Throw it!
+} T ZR Grenade used message
+
+ZRMINE {Landmine set.  Don't return to this location!
+} T ZR Landmine set message
+
+ZRBINOX {To use your Binoculars, type LN LNW LW LSW etc.
+} T ZR Binoculars usage
+

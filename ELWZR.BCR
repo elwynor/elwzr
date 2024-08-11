@@ -1,0 +1,5 @@
+record=48 variable=n key=2 page=1024
+
+position=1 length=30 duplicates=y modifiable=y type=zstring alternate=n null=n segment=n
+position=44 length=4 duplicates=y modifiable=y type=integer alternate=n null=n segment=n
+
